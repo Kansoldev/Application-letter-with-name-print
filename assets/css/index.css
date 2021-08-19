@@ -1,0 +1,54 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+p {
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 17px;
+    letter-spacing: 0.05em;
+}
+
+.container {
+    padding: 15px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.header-area span {
+    font-size: 0.85rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.line-spacer {
+    border-top: 3px solid #222;
+    margin-top: 20px;
+}
+
+main {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.company {
+    font-weight: 700;
+    font-size: 1.1875rem;
+    margin: 18px 0 10px;
+}
